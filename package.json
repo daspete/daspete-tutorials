@@ -1,0 +1,17 @@
+{
+  "name": "tutorials-daspete",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nuxt"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "node-sass": "^4.9.0",
+    "nuxt": "^1.4.0",
+    "sass-loader": "^7.0.1",
+    "vue-awesome": "^3.0.0",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
