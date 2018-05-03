@@ -1,0 +1,44 @@
+
+$topmenu-link-color: orange;
+
+.topmenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    box-shadow: 0 0 15px rgba(black, 0.4);
+    z-index: 10;
+
+    &__logo {
+        color: white;
+        font-weight: 700;
+        padding: 8px;
+    }
+
+    &__navigation {
+        ul {
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+
+            li {
+                display: inline-block;
+
+                a {
+                    display: block;
+                    padding: 8px 15px;
+                    color: $topmenu-link-color;
+                    transition: all 0.3s;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    
+                    &:hover {
+                        color: lighten($topmenu-link-color, 30%);
+                        background-color: rgba($topmenu-link-color, 0.5);
+                    }
+                }
+            }
+        }
+    }
+}

@@ -7,6 +7,7 @@ export default ({ store, params }) => {
         params: params
     });
 
-    store.commit('SET_CHILDREN', site.GetChilds(params));
-    store.commit('SET_MAINCHILDREN', site.GetMainChilds(params));
+    store.commit('SET_PAGE', site.GetPage());
+    store.commit('SET_CHILDREN', site.GetChilds());
+    store.commit('SET_MAINCHILDREN', site.GetMainChilds());
 }

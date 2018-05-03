@@ -2,7 +2,7 @@
     <div class="topmenu">
         <div class="row">
             <div class="col-12 text-center col-md-3 text-md-left">
-                <div class="topmenu__logo">LOGO</div>
+                <div class="topmenu__logo"><icon name="user"></icon> DasPeTe Tutorials</div>
             </div>
             <div class="col-12 text-center col-md-9 text-md-right">
                 <div class="topmenu__navigation">
@@ -21,13 +21,3 @@ export default {
     props: ['pages']
 }
 </script>
-
-
-<style lang="scss" scoped>
-
-.topmenu {
-
-}
-
-
-</style>

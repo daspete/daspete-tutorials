@@ -7,6 +7,9 @@ module.exports = {
         meta: [
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+        ],
+        link: [
+            { rel: 'stylesheet', href: '//fonts.googleapis.com/css?family=Noto+Sans:400,700' }
         ]
     },
 
@@ -22,8 +25,7 @@ module.exports = {
 
     plugins: [
         '~/plugins/vue-awesome',
-        '~/plugins/components',
-        //'~/plugins/sitedata'
+        '~/plugins/components'
     ],
 
     build: {
