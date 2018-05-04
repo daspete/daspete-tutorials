@@ -2,10 +2,11 @@ export default [
     {
         label: 'Home',
         href: '',
+        content: 'home.md',
         spotlight: {
             image: '//placeimg.com/1920/1080/any',
             headline: 'DasPeTeTutorials',
-            subline: '..:: Just learn it, then do it ::..'
+            subline: '..:: Just learn it, then do it ::..',
         },
         thumbnail: '//placeimg.com/400/225/any',
         meta: {
@@ -15,12 +16,13 @@ export default [
             {
                 label: 'Unity 3d',
                 href: 'unity3d',
+                content: 'unity3d.md',
                 spotlight: {
-                    image: '//placeimg.com/1920/1080/any',
+                    image: '/images/posts/unity3d.jpg',
                     headline: 'DasPeTeTutorials',
                     subline: '..:: Just learn it, then do it ::..'
                 },
-                thumbnail: '//placeimg.com/400/225/any',
+                thumbnail: '/images/posts/unity3d.jpg',
                 meta: {
                     description: 'DasPeTe Tutorials'            
                 },
@@ -29,11 +31,11 @@ export default [
                         label: 'Maze Runner',
                         href: 'maze-runner',
                         spotlight: {
-                            image: '//placeimg.com/1920/1080/any',
+                            image: '/images/posts/mazerunner.jpg',
                             headline: 'DasPeTeTutorials',
                             subline: '..:: Just learn it, then do it ::..'
                         },
-                        thumbnail: '//placeimg.com/400/225/any',
+                        thumbnail: '/images/posts/mazerunner.jpg',
                         meta: {
                             description: 'DasPeTe Tutorials'            
                         },

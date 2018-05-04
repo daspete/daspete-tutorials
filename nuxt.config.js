@@ -28,14 +28,26 @@ module.exports = {
         '~/plugins/components'
     ],
 
+    modules: [
+        '@nuxtjs/axios',
+        '@nuxtjs/markdownit'
+    ],
+
     build: {
-        extend(config, { isServer }){
-            if (isServer){
+        extend(config, { isServer }) {
+            if (isServer) {
                 config.externals = [
                     nodeExternals({ whitelist: [/es6-promise|\.(?!(?:js|json)$).{1,5}$/i, /^vue-awesome/] })
                 ]
             }
         }
+    },
+
+    markdownit: {
+        preset: 'default',
+        linkify: true,
+        breaks: true,
+        injected: true      
     }
 
 }

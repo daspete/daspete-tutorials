@@ -1,7 +1,7 @@
 @import "bootstrap";
 @import "variables";
 
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans|Noto+Sans:400,700');
 
 body {
     overflow-x: hidden;
@@ -11,6 +11,7 @@ body {
 
 h1,h2,h3,h4,h5 {
     font-weight: 700;
+    font-family: 'IBM Plex Sans', Arial, Helvetica, sans-serif;
 }
 
 .page-enter-active, .page-leave-active {
@@ -25,3 +26,4 @@ h1,h2,h3,h4,h5 {
 @import "components/spotlight";
 @import "components/topmenu";
 @import "components/tutorials";
+@import "components/contentblock";

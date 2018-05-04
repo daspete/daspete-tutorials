@@ -9,6 +9,7 @@ $topmenu-link-color: orange;
     background-color: black;
     box-shadow: 0 0 15px rgba(black, 0.4);
     z-index: 10;
+    font-family: 'IBM Plex Sans', Arial, Helvetica, sans-serif;
 
     &__logo {
         color: white;
@@ -32,10 +33,11 @@ $topmenu-link-color: orange;
                     transition: all 0.3s;
                     text-decoration: none;
                     text-transform: uppercase;
+                    font-weight: 700;
                     
                     &:hover {
-                        color: lighten($topmenu-link-color, 30%);
-                        background-color: rgba($topmenu-link-color, 0.5);
+                        color: black;
+                        background-color: $topmenu-link-color;
                     }
                 }
             }
