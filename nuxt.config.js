@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const nodeExternals = require('webpack-node-externals')
 
 module.exports = {
@@ -14,14 +16,9 @@ module.exports = {
     },
 
     css: [
-        '~/assets/scss/styles.scss'
+        '~/assets/scss/styles.scss',
+        { src: '~/node_modules/highlight.js/styles/atom-one-dark.css', lang: 'css' }
     ],
-
-    router: {
-        middleware: [
-            'site'
-        ]
-    },
 
     plugins: [
         '~/plugins/vue-awesome',
@@ -47,7 +44,16 @@ module.exports = {
         preset: 'default',
         linkify: true,
         breaks: true,
-        injected: true      
+        use: [
+            'markdown-it-highlightjs',
+            'markdown-it-video',
+            ['markdown-it-link-attributes', {
+                pattern: /^http/,
+                attrs: {
+                    target: '_blank'
+                }
+            }],
+        ] 
     }
 
 }

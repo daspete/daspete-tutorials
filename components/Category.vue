@@ -25,8 +25,6 @@ export default {
         GetLink(page){
             let link = '/';
 
-            console.log(page);
-
             if(typeof this.$route.params.category != 'undefined') link += `${ this.$route.params.category }/`;
             if(typeof this.$route.params.subcategory != 'undefined') link += `${ this.$route.params.subcategory }/`;
             if(typeof this.$route.params.content != 'undefined') link += `${ this.$route.params.content }/`;
