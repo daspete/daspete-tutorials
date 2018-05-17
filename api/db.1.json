@@ -51,13 +51,12 @@
             "categoryId": 1,
             "label": "Curve fever",
             "href": "curve-fever",
-            "content":  "unity3d/curve-fever.md",
             "spotlight": {
-                "image": "/images/posts/unity3d/curvefever.jpg",
+                "image": "//placeimg.com/1920/1080/any",
                 "headline": "DasPeTeTutorials",
                 "subline": "..:: Just learn it, then do it ::.."
             },
-            "thumbnail": "/images/posts/unity3d/curvefever.jpg",
+            "thumbnail": "//placeimg.com/400/225/any",
             "meta": {
                 "description": "DasPeTe Tutorials"
             }
@@ -67,13 +66,12 @@
             "categoryId": 1,
             "label": "Google Cardboard",
             "href": "google-cardboard",
-            "content": "unity3d/google-cardboard.md",
             "spotlight": {
-                "image": "/images/posts/unity3d/cardboard.jpg",
+                "image": "//placeimg.com/1920/1080/any",
                 "headline": "DasPeTeTutorials",
                 "subline": "..:: Just learn it, then do it ::.."
             },
-            "thumbnail": "/images/posts/unity3d/cardboard.jpg",
+            "thumbnail": "//placeimg.com/400/225/any",
             "meta": {
                 "description": "DasPeTe Tutorials"
             }
@@ -99,29 +97,28 @@
             "categoryId": 1,
             "label": "Mesh generation",
             "href": "mesh-generation",
-            "content": "unity3d/mesh-generation.md",
             "spotlight": {
-                "image": "/images/posts/unity3d/mesh.jpg",
+                "image": "//placeimg.com/1920/1080/any",
                 "headline": "DasPeTeTutorials",
                 "subline": "..:: Just learn it, then do it ::.."
             },
-            "thumbnail": "/images/posts/unity3d/mesh.jpg",
+            "thumbnail": "//placeimg.com/400/225/any",
             "meta": {
                 "description": "DasPeTe Tutorials"
             }
         },
+        
         {
             "id": 6,
             "categoryId": 1,
             "label": "Quick tips",
             "href": "quick-tips",
-            "content": "unity3d/quick-tips.md",
             "spotlight": {
-                "image": "/images/posts/unity3d.jpg",
+                "image": "//placeimg.com/1920/1080/any",
                 "headline": "DasPeTeTutorials",
                 "subline": "..:: Just learn it, then do it ::.."
             },
-            "thumbnail": "/images/posts/unity3d.jpg",
+            "thumbnail": "//placeimg.com/400/225/any",
             "meta": {
                 "description": "DasPeTe Tutorials"
             }
@@ -131,13 +128,12 @@
             "categoryId": 1,
             "label": "Simon says",
             "href": "simon-says",
-            "content": "unity3d/simon-says.md",
             "spotlight": {
-                "image": "/images/posts/unity3d/simonsays.jpg",
+                "image": "//placeimg.com/1920/1080/any",
                 "headline": "DasPeTeTutorials",
                 "subline": "..:: Just learn it, then do it ::.."
             },
-            "thumbnail": "/images/posts/unity3d/simonsays.jpg",
+            "thumbnail": "//placeimg.com/400/225/any",
             "meta": {
                 "description": "DasPeTe Tutorials"
             }
@@ -147,13 +143,12 @@
             "categoryId": 1,
             "label": "Snake",
             "href": "snake",
-            "content": "unity3d/snake.md",
             "spotlight": {
-                "image": "/images/posts/unity3d/snake.jpg",
+                "image": "//placeimg.com/1920/1080/any",
                 "headline": "DasPeTeTutorials",
                 "subline": "..:: Just learn it, then do it ::.."
             },
-            "thumbnail": "/images/posts/unity3d/snake.jpg",
+            "thumbnail": "//placeimg.com/400/225/any",
             "meta": {
                 "description": "DasPeTe Tutorials"
             }
@@ -320,74 +315,6 @@
             "meta": {
                 "description": "DasPeTe Tutorials"
             }
-        },
-        {
-            "id": 10,
-            "subcategoryId": 4,
-            "label": "The Basics",
-            "href": "the-basics",
-            "content": "unity3d/mesh-generation/the-basics.md",
-            "spotlight": {
-                "image": "/images/posts/unity3d/mesh.jpg",
-                "headline": "DasPeTeTutorials",
-                "subline": "..:: Just learn it, then do it ::.."
-            },
-            "thumbnail": "/images/posts/unity3d/mesh.jpg",
-            "meta": {
-                "description": "DasPeTe Tutorials"
-            }
-        },
-        {
-            "id": 11,
-            "subcategoryId": 4,
-            "label": "The Code",
-            "href": "the-code",
-            "content": "unity3d/mesh-generation/the-code.md",
-            "spotlight": {
-                "image": "/images/posts/unity3d/mesh.jpg",
-                "headline": "DasPeTeTutorials",
-                "subline": "..:: Just learn it, then do it ::.."
-            },
-            "thumbnail": "/images/posts/unity3d/mesh.jpg",
-            "meta": {
-                "description": "DasPeTe Tutorials"
-            }
-        },
-
-        {
-            "id": 12,
-            "subcategoryId": 6,
-            "label": "Animated LookAt",
-            "href": "animated-lookat",
-            "content": "unity3d/quick-tips/animated-lookat.md",
-            "spotlight": {
-                "image": "/images/posts/unity3d.jpg",
-                "headline": "DasPeTeTutorials",
-                "subline": "..:: Just learn it, then do it ::.."
-            },
-            "thumbnail": "/images/posts/unity3d.jpg",
-            "meta": {
-                "description": "DasPeTe Tutorials"
-            }
-        },
-
-        {
-            "id": 13,
-            "subcategoryId": 2,
-            "label": "Without Gyroscope",
-            "href": "without-gyroscope",
-            "content": "unity3d/google-cardboard/without-gyroscope.md",
-            "spotlight": {
-                "image": "/images/posts/unity3d/cardboard.jpg",
-                "headline": "DasPeTeTutorials",
-                "subline": "..:: Just learn it, then do it ::.."
-            },
-            "thumbnail": "/images/posts/unity3d/cardboard.jpg",
-            "meta": {
-                "description": "DasPeTe Tutorials"
-            }
         }
-
-        
     ]
 }
