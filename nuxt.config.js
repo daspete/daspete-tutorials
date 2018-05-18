@@ -31,7 +31,8 @@ module.exports = {
 
     modules: [
         '@nuxtjs/axios',
-        '@nuxtjs/markdownit'
+        '@nuxtjs/markdownit',
+        '@nuxtjs/google-analytics'
     ],
 
     build: {
@@ -44,6 +45,10 @@ module.exports = {
                 ]
             }
         }
+    },
+
+    'google-analytics': {
+        id: 'UA-84541883-1'
     },
 
     markdownit: {
