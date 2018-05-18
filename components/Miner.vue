@@ -2,10 +2,10 @@
     <div :class="`miner${ $store.getters['minerstate'] ? ' miner--active' : '' }`">
         <div class="row">
             <div class="col-12 col-md-8 miner__intro" v-if="!$store.getters['minerstate']">
-                Hey there :) if you like these tutorials or blueprints, you would do me a favour, <br>
-                to rent me some CPU time (25%) to mine some cryptos. Let us keep the server paid :)
+                Hey there :) if you like these tutorials or blueprints, you would do me a favour, 
+                if you rent me some CPU time (25%) to mine some cryptos. Let us keep the server paid :)
             </div>
-            <div :class="`col-12 col-md-${ $store.getters['minerstate'] ? '10 text-left' : '2' }`">
+            <div :class="`col-12 col-md-${ $store.getters['minerstate'] ? '10 text-center text-md-left' : '2' }`">
                 <div>
                     {{ miner ? miner.getTotalHashes() : '0' }} Hashes calculated
                 </div>

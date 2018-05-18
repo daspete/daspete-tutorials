@@ -1,17 +1,14 @@
 .miner {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    position: relative;
+    padding: 1rem;
     text-align: center;
     background-color: yellowgreen;
-    padding: 1rem;
     font-size: 0.8rem;
     font-weight: 700;
     color: rgba(darkgreen, 0.9);
-    z-index: 10;
 
     transition: all 0.25s; 
+    overflow: hidden;
     
 
     &:before {
@@ -45,7 +42,12 @@
     }
 
     &--active {
+        position: fixed;
         padding: 0.3rem 0.5rem;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 15;
 
         button {
             padding: 0.2rem 0.5rem;
