@@ -1,5 +1,3 @@
-# Maze Drawing
-
 It's time to draw our maze. At first, we need a **prefab**, which holds our sprite tile. So, create a new **empty GameObject** and name it **MazeSprite**.
 ![](/images/posts/unity3d/maze-runner/chapter-03/000141.png)
 

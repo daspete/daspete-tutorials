@@ -1,5 +1,3 @@
-# Animated LookAt rotation
-
 It's a pity, that the transform.LookAt() function has no possibility to animate the rotation.
 
 So, we need to create such a functionality ourselves.

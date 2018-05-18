@@ -1,5 +1,3 @@
-# Maze Sprites
-
 To visualize our Maze, we need a bunch of sprites. We need
 * Floor Sprite
 * Roof Sprite

@@ -1,5 +1,3 @@
-# Using the Cardboard SDK without a gyroscope
-
 I recently bought a Cardboard to play around with the possibilities of VR in Unity3D. But then i realized, that my smartphone doesn't have a gyroscope... holy crap... So, what now? Just find a way to get it working without it :) If you have a smartphone with a compass and a accelerometer module, then this is for you.
 
 Just create a new project and download the [Google VR unitypackage](https://github.com/googlevr/gvr-unity-sdk/blob/master/GoogleVRForUnity.unitypackagek) from their GitHub page. Just click on the **Download** button on the right side, and choose **Open with unity editor** in the download options. Then just click on import.

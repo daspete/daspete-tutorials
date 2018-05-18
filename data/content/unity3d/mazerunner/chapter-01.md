@@ -1,5 +1,3 @@
-### Depth first maze generation
-
 There are many ways to generate a maze, you can have a look at [Wikipedia](https://en.wikipedia.org/wiki/Maze_generation_algorithm) to get a view of what is possible.
 
 We'll implement a **depth first algorithm**, because i find, it's the easiest and most performant way to build a random maze.

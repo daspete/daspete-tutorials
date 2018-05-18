@@ -1,5 +1,3 @@
-# Simon Says in 15 minutes
-
 Today, we'll build a basic Simon Says game, which we can extend later on
 @[youtube](i8t6nexGZZw)
 

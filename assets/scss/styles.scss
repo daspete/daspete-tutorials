@@ -21,9 +21,19 @@ h1,h2,h3,h4,h5 {
     opacity: 0;
 }
 
+.row{
+    overflow: hidden; 
+}
+
+[class*="col-"]{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+
 @import "components/category";
 @import "components/pagefooter";
 @import "components/spotlight";
 @import "components/topmenu";
 @import "components/tutorials";
 @import "components/contentblock";
+@import "components/miner";

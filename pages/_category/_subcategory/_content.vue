@@ -2,7 +2,8 @@
     <div class="page">
         <topmenu :pages="categories"></topmenu>
         <spotlight :page="contentSettings"></spotlight>
-        <contentblock :content="content"></contentblock>
+        <miner></miner>
+        <contentblock v-if="content.trim() != '<section></section>'" :content="content"></contentblock>
         <!-- <category :childs="subcategory.contents"></category> -->
         <pagefooter></pagefooter>
     </div>
@@ -12,9 +13,15 @@
 export default {
     head(){
         return {
-            title: this.contentSettings.label,
+            title: this.contentSettings.title,
             meta: [
-                { name: 'description', content: this.contentSettings.meta.description }
+                { name: 'description', content: this.contentSettings.meta.description },
+                { name: 'og:title', content: this.contentSettings.title },
+                { name: 'og:site_name', content: process.env.SITE_NAME },
+                { name: 'og:description', content: this.contentSettings.meta.description },
+                { name: 'og:image', content: process.env.SITE_URL + this.contentSettings.meta.image },
+                { name: 'og:image:width', content: '917' },
+                { name: 'og:image:height', content: '480' }
             ]
         }
     },

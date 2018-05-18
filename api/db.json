@@ -1,177 +1,249 @@
 {
     "home": {
+        "title": "Home",
         "label": "Home",
         "href": "",
         "content": "home.md",
         "spotlight": {
-            "image": "//placeimg.com/1920/1080/any",
+            "image": "/images/posts/default.jpg",
             "headline": "DasPeTeTutorials",
             "subline": "..:: Just learn it, then do it ::.."
         },
-        "thumbnail": "//placeimg.com/400/225/any",
+        "thumbnail": "/images/posts/default.jpg",
         "meta": {
-            "description": "DasPeTe Tutorials"
+            "keywords": "web,webdev,development,game,gamedev,peter,braith,daspete,das,pete",
+            "image": "/images/posts/default.jpg",
+            "description": "Web and Game development tutorials"
         }
     },
     "categories": [
         {
             "id": 1, 
+            "title": "Unity 3d",
             "label": "Unity 3d",
             "href": "unity3d",
             "content": "unity3d.md",
             "spotlight": {
                 "image": "/images/posts/unity3d.jpg",
-                "headline": "DasPeTeTutorials",
-                "subline": "..:: Just learn it, then do it ::.."
+                "headline": "Unity3D Tutorials",
+                "subline": "..:: Quick tips and little projects ::.."
             },
             "thumbnail": "/images/posts/unity3d.jpg",
             "meta": {
-                "description": "DasPeTe Tutorials"
+                "keywords": "tutorial,unity3d,unity,development,game,gamedev,peter,braith,daspete,das,pete",
+                "image": "/images/posts/unity3d.jpg",
+                "description": "Unity3D Tutorials"
             }
         },
         {
             "id": 2,
+            "title": "Web development tutorials",
+            "label": "WEB Development",
+            "href": "web",
+            "content": "web.md",
+            "spotlight": {
+                "image": "/images/posts/web.jpg",
+                "headline": "Web Development Tutorials",
+                "subline": "..:: JS, HTML and SCSS ::.."
+            },
+            "thumbnail": "/images/posts/web.jpg",
+            "meta": {
+                "keywords": "tutorial,web,js,javascript,nuxt,vue,vuejs,component,development,peter,braith,daspete,das,pete",
+                "image": "/images/posts/web.jpg",
+                "description": "Web development tutorials"
+            }
+        },
+        {
+            "id": 3,
+            "title": "IoT development tutorials",
             "label": "IoT",
             "href": "iot",
             "content": "iot.md",
             "spotlight": {
-                "image": "//placeimg.com/1920/1080/any",
-                "headline": "DasPeTeTutorials",
-                "subline": "..:: Just learn it, then do it ::.."
+                "image": "/images/posts/iot.jpg",
+                "headline": "Internet of things",
+                "subline": "..:: Get touchy with the hardware ::.."
             },
-            "thumbnail": "//placeimg.com/400/225/any",
+            "thumbnail": "/images/posts/iot.jpg",
             "meta": {
-                "description": "DasPeTe Tutorials"
+                "keywords": "tutorial,iot,internet,of,things,development,hardware,raspberry,pi,peter,braith,daspete,das,pete",
+                "image": "/images/posts/iot.jpg",
+                "description": "IoT development tutorials"
             }
         }
     ],
     "subcategories": [
         {
+            "id": 10,
+            "categoryId": 3,
+            "title": "Smartphone RC Car",
+            "label": "Network controlled RC Car",
+            "href": "smartphone-rc-car",
+            "content":  "iot/smartphone-rc-car.md",
+            "spotlight": {
+                "image": "/images/posts/iot.jpg",
+                "headline": "Smartphone RC Car",
+                "subline": "..:: Drive your RC-Car with smartphones ::.."
+            },
+            "thumbnail": "/images/posts/iot.jpg",
+            "meta": {
+                "keywords": "tutorial,development,remote,control,car,smartphone,internet,network,raspberry,pi",
+                "image": "/images/posts/iot.jpg",
+                "description": "Create an RC car controlled by a PC anywhere"
+            }
+        },
+
+
+        {
             "id": 1,
             "categoryId": 1,
-            "label": "Curve fever",
+            "title": "Curve fever",
+            "label": "Curve fever in 15 minutes",
             "href": "curve-fever",
             "content":  "unity3d/curve-fever.md",
             "spotlight": {
                 "image": "/images/posts/unity3d/curvefever.jpg",
-                "headline": "DasPeTeTutorials",
-                "subline": "..:: Just learn it, then do it ::.."
+                "headline": "Create Curve fever",
+                "subline": "..:: in 15 minutes ::.."
             },
             "thumbnail": "/images/posts/unity3d/curvefever.jpg",
             "meta": {
-                "description": "DasPeTe Tutorials"
+                "keywords": "unity3d,tutorial,development,game,gamedev,curve,fever,curvefever",
+                "image": "/images/posts/unity3d/curvefever.jpg",
+                "description": "Create a Curve Fever game in Unity3D in 15 minutes"
             }
         },
         {   
             "id": 2,
             "categoryId": 1,
+            "title": "Google Cardboard",
             "label": "Google Cardboard",
             "href": "google-cardboard",
             "content": "unity3d/google-cardboard.md",
             "spotlight": {
                 "image": "/images/posts/unity3d/cardboard.jpg",
-                "headline": "DasPeTeTutorials",
-                "subline": "..:: Just learn it, then do it ::.."
+                "headline": "Google Cardboard",
+                "subline": "..:: Fun with VR ::.."
             },
             "thumbnail": "/images/posts/unity3d/cardboard.jpg",
             "meta": {
-                "description": "DasPeTe Tutorials"
+                "keywords": "unity3d,tutorial,development,game,gamedev,google,cardboard,vr",
+                "image": "/images/posts/unity3d/cardboard.jpg",
+                "description": "Using the Cardboard SDK in Unity3D"
             }
         },
         {
             "id": 3,
             "categoryId": 1,
+            "title": "Maze Runner",
             "label": "Maze Runner",
             "href": "maze-runner",
             "content": "unity3d/mazerunner.md",
             "spotlight": {
                 "image": "/images/posts/unity3d/mazerunner.jpg",
-                "headline": "DasPeTeTutorials",
-                "subline": "..:: Just learn it, then do it ::.."
+                "headline": "Maze Runner",
+                "subline": "..:: Random mazes to go ::.."
             },
             "thumbnail": "/images/posts/unity3d/mazerunner.jpg",
             "meta": {
-                "description": "DasPeTe Tutorials"
+                "keywords": "unity3d,tutorial,development,game,gamedev,maze,generation,runner",
+                "image": "/images/posts/unity3d/mazerunner.jpg",
+                "description": "Create a Maze runner game in Unity3D"
             }
         },
         {
             "id": 4,
             "categoryId": 1,
+            "title": "Mesh generation in Unity3D",
             "label": "Mesh generation",
             "href": "mesh-generation",
             "content": "unity3d/mesh-generation.md",
             "spotlight": {
                 "image": "/images/posts/unity3d/mesh.jpg",
-                "headline": "DasPeTeTutorials",
-                "subline": "..:: Just learn it, then do it ::.."
+                "headline": "Meshes",
+                "subline": "..:: they are everywhere ::.."
             },
             "thumbnail": "/images/posts/unity3d/mesh.jpg",
             "meta": {
-                "description": "DasPeTe Tutorials"
+                "keywords": "unity3d,tutorial,development,game,gamedev,mesh,generation,procedural",
+                "image": "/images/posts/unity3d/mesh.jpg",
+                "description": "Create basic meshes with code in Unity3D"
             }
         },
         {
             "id": 6,
             "categoryId": 1,
+            "title": "Unity3D Quick tips",
             "label": "Quick tips",
             "href": "quick-tips",
             "content": "unity3d/quick-tips.md",
             "spotlight": {
                 "image": "/images/posts/unity3d.jpg",
-                "headline": "DasPeTeTutorials",
-                "subline": "..:: Just learn it, then do it ::.."
+                "headline": "Quick tips",
+                "subline": "..:: How was that working? ::.."
             },
             "thumbnail": "/images/posts/unity3d.jpg",
             "meta": {
-                "description": "DasPeTe Tutorials"
+                "keywords": "unity3d,tutorial,development,game,gamedev,quick,tip,quicktip,tipp",
+                "image": "/images/posts/unity3d.jpg",
+                "description": "Quick tips for Unity3D"
             }
         },
         {
             "id": 7,
             "categoryId": 1,
+            "title": "Simon says",
             "label": "Simon says",
             "href": "simon-says",
             "content": "unity3d/simon-says.md",
             "spotlight": {
                 "image": "/images/posts/unity3d/simonsays.jpg",
-                "headline": "DasPeTeTutorials",
-                "subline": "..:: Just learn it, then do it ::.."
+                "headline": "Simon says",
+                "subline": "..:: No one asked ::.."
             },
             "thumbnail": "/images/posts/unity3d/simonsays.jpg",
             "meta": {
-                "description": "DasPeTe Tutorials"
+                "keywords": "unity3d,tutorial,development,game,gamedev,simon,says,simonsays",
+                "image": "/images/posts/unity3d/simonsays.jpg",
+                "description": "Create a Simon Says game in Unity3D in 15 minutes"
             }
         },
         {
             "id": 8,
             "categoryId": 1,
+            "title": "Snake",
             "label": "Snake",
             "href": "snake",
             "content": "unity3d/snake.md",
             "spotlight": {
                 "image": "/images/posts/unity3d/snake.jpg",
-                "headline": "DasPeTeTutorials",
-                "subline": "..:: Just learn it, then do it ::.."
+                "headline": "Snake",
+                "subline": "..:: Good old times ::.."
             },
             "thumbnail": "/images/posts/unity3d/snake.jpg",
             "meta": {
-                "description": "DasPeTe Tutorials"
+                "keywords": "unity3d,tutorial,development,game,gamedev,snake",
+                "image": "/images/posts/unity3d/snake.jpg",
+                "description": "Create a 2D snake game in Unity3D in 15 minutes"
             }
         },
         {
             "id": 9,
             "categoryId": 1,
+            "title": "WebGL Socket Lobby System",
             "label": "WebGL Socket Lobby System",
             "href": "webglsocketlobby",
             "content": "unity3d/webglsocketlobby.md",
             "spotlight": {
                 "image": "/images/posts/unity3d/webgllobby.jpg",
-                "headline": "DasPeTeTutorials",
-                "subline": "..:: Just learn it, then do it ::.."
+                "headline": "Lobby system",
+                "subline": "..:: a home for your gamers ::.."
             },
             "thumbnail": "/images/posts/unity3d/webgllobby.jpg",
             "meta": {
-                "description": "DasPeTe Tutorials"
+                "keywords": "unity3d,tutorial,development,game,gamedev,network,lobby,webgl",
+                "image": "/images/posts/unity3d/webgllobby.jpg",
+                "description": "How to use the NodeJS Socket.IO WebGL Lobby System for Unity3D"
             }
         }
 
@@ -180,211 +252,250 @@
         {
             "id": 1,
             "subcategoryId": 3,
+            "title": "Unity3D 2D Maze Runner - Maze generation (Depth first)",
             "label": "Maze generation (Depth first)",
             "href": "chapter-01",
             "content": "unity3d/mazerunner/chapter-01.md",
             "spotlight": {
                 "image": "/images/posts/unity3d/mazerunner.jpg",
-                "headline": "DasPeTeTutorials",
-                "subline": "..:: Just learn it, then do it ::.."
+                "headline": "Depth first",
+                "subline": "..:: Check, before we go ::.."
             },
             "thumbnail": "/images/posts/unity3d/mazerunner.jpg",
             "meta": {
-                "description": "DasPeTe Tutorials"
+                "keywords": "unity3d,tutorial,development,game,gamedev,maze,generation,depth,first,depthfirst",
+                "image": "/images/posts/unity3d/mazerunner.jpg",
+                "description": "Create our depth first generation algo for our Maze Runner game in Unity3D"
             }
         },
         {
             "id": 2,
             "subcategoryId": 3,
+            "title": "Unity3D 2D Maze Runner - Maze Sprites",
             "label": "Maze Sprites",
             "href": "chapter-02",
             "content": "unity3d/mazerunner/chapter-02.md",
             "spotlight": {
                 "image": "/images/posts/unity3d/mazerunner.jpg",
-                "headline": "DasPeTeTutorials",
-                "subline": "..:: Just learn it, then do it ::.."
+                "headline": "Maze sprites",
+                "subline": "..:: our game needs some color ::.."
             },
             "thumbnail": "/images/posts/unity3d/mazerunner.jpg",
             "meta": {
-                "description": "DasPeTe Tutorials"
+                "keywords": "unity3d,tutorial,development,game,gamedev,maze,generation,sprite",
+                "image": "/images/posts/unity3d/mazerunner.jpg",
+                "description": "Create our sprites for our Maze Runner game in Unity3D"
             }
         },
         {
             "id": 3,
             "subcategoryId": 3,
+            "title": "Unity3D 2D Maze Runner - Maze Drawing",
             "label": "Maze Drawing",
             "href": "chapter-03",
             "content": "unity3d/mazerunner/chapter-03.md",
             "spotlight": {
                 "image": "/images/posts/unity3d/mazerunner.jpg",
-                "headline": "DasPeTeTutorials",
-                "subline": "..:: Just learn it, then do it ::.."
+                "headline": "Draw the maze",
+                "subline": "..:: it is getting real ::.."
             },
             "thumbnail": "/images/posts/unity3d/mazerunner.jpg",
             "meta": {
-                "description": "DasPeTe Tutorials"
+                "keywords": "unity3d,tutorial,development,game,gamedev,maze,generation,drawing",
+                "image": "/images/posts/unity3d/mazerunner.jpg",
+                "description": "Draw the maze for our Maze Runner game in Unity3D"
             }
         },
         {
             "id": 4,
             "subcategoryId": 3,
+            "title": "Unity3D 2D Maze Runner - Maze Character",
             "label": "Maze Character",
             "href": "chapter-04",
             "content": "unity3d/mazerunner/chapter-04.md",
             "spotlight": {
                 "image": "/images/posts/unity3d/mazerunner.jpg",
-                "headline": "DasPeTeTutorials",
-                "subline": "..:: Just learn it, then do it ::.."
+                "headline": "Maze game character",
+                "subline": "..:: It's time for some walking ::.."
             },
             "thumbnail": "/images/posts/unity3d/mazerunner.jpg",
             "meta": {
-                "description": "DasPeTe Tutorials"
+                "keywords": "unity3d,tutorial,development,game,gamedev,maze,generation,character,movement",
+                "image": "/images/posts/unity3d/mazerunner.jpg",
+                "description": "Draw the character for our Maze Runner game in Unity3D"
             }
         },
         {
             "id": 5,
             "subcategoryId": 3,
+            "title": "Unity3D 2D Maze Runner - Light Flickering",
             "label": "Light Flickering",
             "href": "chapter-05",
             "content": "unity3d/mazerunner/chapter-05.md",
             "spotlight": {
                 "image": "/images/posts/unity3d/mazerunner.jpg",
-                "headline": "DasPeTeTutorials",
-                "subline": "..:: Just learn it, then do it ::.."
+                "headline": "Light flickering",
+                "subline": "..:: where are my batteries? ::.."
             },
             "thumbnail": "/images/posts/unity3d/mazerunner.jpg",
             "meta": {
-                "description": "DasPeTe Tutorials"
+                "keywords": "unity3d,tutorial,development,game,gamedev,maze,generation,light,flicker",
+                "image": "/images/posts/unity3d/mazerunner.jpg",
+                "description": "Create a light flickering effect for our Maze Runner game in Unity3D"
             }
         },
         {
             "id": 6,
             "subcategoryId": 3,
+            "title": "Unity3D 2D Maze Runner - Get out of the maze",
             "label": "Get out of the maze",
             "href": "chapter-06",
             "content": "unity3d/mazerunner/chapter-06.md",
             "spotlight": {
                 "image": "/images/posts/unity3d/mazerunner.jpg",
-                "headline": "DasPeTeTutorials",
-                "subline": "..:: Just learn it, then do it ::.."
+                "headline": "Escape the maze",
+                "subline": "..:: run run run ::.."
             },
             "thumbnail": "/images/posts/unity3d/mazerunner.jpg",
             "meta": {
-                "description": "DasPeTe Tutorials"
+                "keywords": "unity3d,tutorial,development,game,gamedev,maze,generation,goal,key,door,escape",
+                "image": "/images/posts/unity3d/mazerunner.jpg",
+                "description": "Create directives to get out of the maze"
             }
         },
         {
             "id": 7,
             "subcategoryId": 9,
+            "title": "Unity3D WebGL Socket Lobby - The Unity Part",
             "label": "The Unity Part",
             "href": "the-unity-part",
             "content": "unity3d/webglsocketlobby/the-unity-part.md",
             "spotlight": {
                 "image": "/images/posts/unity3d/webgllobby.jpg",
-                "headline": "DasPeTeTutorials",
-                "subline": "..:: Just learn it, then do it ::.."
+                "headline": "Lobby system in Unity3D",
+                "subline": "..:: First the view part ::.."
             },
             "thumbnail": "/images/posts/unity3d/webgllobby.jpg",
             "meta": {
-                "description": "DasPeTe Tutorials"
+                "keywords": "unity3d,tutorial,development,game,gamedev,network,lobby,webgl",
+                "image": "/images/posts/unity3d/webgllobby.jpg",
+                "description": "How to use the NodeJS Socket.IO WebGL Lobby System for Unity3D - The Unity3D part"
             }
         },
         {
             "id": 8,
             "subcategoryId": 9,
+            "title": "Unity3D WebGL Socket Lobby - The Client Part",
             "label": "The Client Part",
             "href": "the-client-part",
             "content": "unity3d/webglsocketlobby/the-client-part.md",
             "spotlight": {
                 "image": "/images/posts/unity3d/webgllobby.jpg",
-                "headline": "DasPeTeTutorials",
-                "subline": "..:: Just learn it, then do it ::.."
+                "headline": "Lobby system in Unity3D",
+                "subline": "..:: The client part ::.."
             },
             "thumbnail": "/images/posts/unity3d/webgllobby.jpg",
             "meta": {
-                "description": "DasPeTe Tutorials"
+                "keywords": "unity3d,tutorial,development,game,gamedev,network,lobby,webgl",
+                "image": "/images/posts/unity3d/webgllobby.jpg",
+                "description": "How to use the NodeJS Socket.IO WebGL Lobby System for Unity3D - The client part"
             }
         },
         {
             "id": 9,
             "subcategoryId": 9,
+            "title": "Unity3D WebGL Socket Lobby - The Server Part",
             "label": "The Server Part",
             "href": "the-server-part",
             "content": "unity3d/webglsocketlobby/the-server-part.md",
             "spotlight": {
                 "image": "/images/posts/unity3d/webgllobby.jpg",
-                "headline": "DasPeTeTutorials",
-                "subline": "..:: Just learn it, then do it ::.."
+                "headline": "Lobby system in Unity3D",
+                "subline": "..:: The server part ::.."
             },
             "thumbnail": "/images/posts/unity3d/webgllobby.jpg",
             "meta": {
-                "description": "DasPeTe Tutorials"
+                "keywords": "unity3d,tutorial,development,game,gamedev,network,lobby,webgl",
+                "image": "/images/posts/unity3d/webgllobby.jpg",
+                "description": "How to use the NodeJS Socket.IO WebGL Lobby System for Unity3D - The server part"
             }
         },
         {
             "id": 10,
             "subcategoryId": 4,
+            "title": "Mesh generation - The Basics",
             "label": "The Basics",
             "href": "the-basics",
             "content": "unity3d/mesh-generation/the-basics.md",
             "spotlight": {
                 "image": "/images/posts/unity3d/mesh.jpg",
-                "headline": "DasPeTeTutorials",
-                "subline": "..:: Just learn it, then do it ::.."
+                "headline": "Create a mesh in Unity3D",
+                "subline": "..:: The basics ::.."
             },
             "thumbnail": "/images/posts/unity3d/mesh.jpg",
             "meta": {
-                "description": "DasPeTe Tutorials"
+                "keywords": "unity3d,tutorial,development,game,gamedev,mesh,generation,procedural",
+                "image": "/images/posts/unity3d/mesh.jpg",
+                "description": "The basics of mesh generation in Unity3D"
             }
         },
         {
             "id": 11,
             "subcategoryId": 4,
+            "title": "Mesh generation - The Code",
             "label": "The Code",
             "href": "the-code",
             "content": "unity3d/mesh-generation/the-code.md",
             "spotlight": {
                 "image": "/images/posts/unity3d/mesh.jpg",
-                "headline": "DasPeTeTutorials",
-                "subline": "..:: Just learn it, then do it ::.."
+                "headline": "Create a mesh in Unity3D",
+                "subline": "..:: The code part ::.."
             },
             "thumbnail": "/images/posts/unity3d/mesh.jpg",
             "meta": {
-                "description": "DasPeTe Tutorials"
+                "keywords": "unity3d,tutorial,development,game,gamedev,mesh,generation,procedural",
+                "image": "/images/posts/unity3d/mesh.jpg",
+                "description": "The code for creating basic meshes in Unity3D"
             }
         },
 
         {
             "id": 12,
             "subcategoryId": 6,
-            "label": "Animated LookAt",
+            "title": "Animated LookAt in Unity3D",
+            "label": "Animated LookAt in Unity3D",
             "href": "animated-lookat",
             "content": "unity3d/quick-tips/animated-lookat.md",
             "spotlight": {
                 "image": "/images/posts/unity3d.jpg",
-                "headline": "DasPeTeTutorials",
-                "subline": "..:: Just learn it, then do it ::.."
+                "headline": "Unity3D quick tip",
+                "subline": "..:: animate the rotation ::.."
             },
             "thumbnail": "/images/posts/unity3d.jpg",
             "meta": {
-                "description": "DasPeTe Tutorials"
+                "keywords": "unity3d,tutorial,development,game,gamedev,transform,lookat,smooth,lerp,rotation",
+                "image": "/images/posts/unity3d.jpg",
+                "description": "How to create an Animated LookAt in Unity3D"
             }
         },
 
         {
             "id": 13,
             "subcategoryId": 2,
-            "label": "Without Gyroscope",
+            "title": "Cardboard without a gyroscope",
+            "label": "Cardboard without a gyroscope",
             "href": "without-gyroscope",
             "content": "unity3d/google-cardboard/without-gyroscope.md",
             "spotlight": {
                 "image": "/images/posts/unity3d/cardboard.jpg",
-                "headline": "DasPeTeTutorials",
-                "subline": "..:: Just learn it, then do it ::.."
+                "headline": "Cardboard without gyroscope",
+                "subline": "..:: When your mobile is getting old ::.."
             },
             "thumbnail": "/images/posts/unity3d/cardboard.jpg",
             "meta": {
-                "description": "DasPeTe Tutorials"
+                "keywords": "unity3d,tutorial,development,game,gamedev,google,cardboard,gyroscope",
+                "image": "/images/posts/unity3d/cardboard.jpg",
+                "description": "Using the Cardboard SDK without a gyroscope"
             }
         }
 

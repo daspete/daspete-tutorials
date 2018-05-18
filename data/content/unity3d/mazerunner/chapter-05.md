@@ -1,5 +1,3 @@
-# Light Flickering
-
 We want to have an effect for our flashlight, so that it seems, the batteries are low and the lamp is flickering sometimes.
 
 To get such effect, we need a new C# script, so create a new folder in our Scripts folder and name it **Effects**. In there create a new C# script and name it **LightFlicker**.

@@ -1,5 +1,3 @@
-# Snake in 15 minutes
-
 Today, we'll build a basic Snake game, which we can extend later on
 @[youtube](EsY3Ort-ibk)
 

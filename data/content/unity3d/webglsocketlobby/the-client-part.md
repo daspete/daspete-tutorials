@@ -1,5 +1,3 @@
-# The client part
-
 Now, we need to create our HTML5 Javascript client script. To do this, go to the terminal and navigate to the folder in which you cloned the client repository.
 
 Next we need to install the dependencies. So type

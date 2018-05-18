@@ -1,5 +1,3 @@
-# The Unity3D part
-
 Create a new 2D Unity3D project and import the [WebGLSocketLobby package from github](https://github.com/daspete/unity3d-webgl-socket-lobby-package)
 
 After you imported the package, drag the **WebGLSocketLobby** prefab onto the scene

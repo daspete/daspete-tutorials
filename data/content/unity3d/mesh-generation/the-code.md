@@ -1,5 +1,3 @@
-# The code
-
 We need two C# scripts to get the mesh creation started. At first, we need an object, which stores the vertices, triangles and uv coords and gives us the generated mesh, let's call it **MeshData**. Then we need a script, in which we create meshes, we call this script **MeshCreator**.
 
 So let's start with the **MeshData** class.

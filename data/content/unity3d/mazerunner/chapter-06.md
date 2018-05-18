@@ -1,5 +1,3 @@
-# Get out of the maze
-
 It's time to let our maze runner getting out of the maze.
 
 Before we start, we need to make a few changes to our **Maze** class. Now, we have hardcoded the starting point to x=1 and y=1, we want to change that. To do so, we need to **change the constructor** of our **Maze** class. We create another constructor, which lets us set the start point (in our case from the MazeGenerator class)

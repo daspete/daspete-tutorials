@@ -1,5 +1,3 @@
-# Curve Fever in 15 minutes
-
 Today, we'll build a basic Curve Fever game, which we can extend later on
 @[youtube](eM7_thGGXIs)
 

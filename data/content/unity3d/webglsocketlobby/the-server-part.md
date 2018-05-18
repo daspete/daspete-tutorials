@@ -1,5 +1,3 @@
-# The server part
-
 In the terminal, go to the folder in which you cloned the server repository and type in 
 ```
 npm install

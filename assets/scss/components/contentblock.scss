@@ -9,4 +9,12 @@
     a {
         color: darken(orange, 10%);
     }
+
+    img {
+        margin: 1rem 0;
+        display: inline-block;
+        max-width: 100%;
+        box-shadow: 0 0 15px rgba(black, 0.35);
+
+    }
 }

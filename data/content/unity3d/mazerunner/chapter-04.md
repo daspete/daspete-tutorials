@@ -1,5 +1,3 @@
-# Maze Character
-
 For our Maze Character, we need a new **empty GameObject** in the scene, so create one and name it **MazeRunner**
 ![](/images/posts/unity3d/maze-runner/chapter-04/000154.png)
 

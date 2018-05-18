@@ -2,9 +2,10 @@
     <div class="page">
         <topmenu :pages="categories"></topmenu>
         <spotlight :page="home"></spotlight>
-        <contentblock :content="content"></contentblock>
+        <contentblock v-if="content.trim() != '<section></section>'" :content="content"></contentblock>
         <category :childs="categories"></category>
         <pagefooter></pagefooter>
+        <miner></miner>
     </div>
 </template>
 
@@ -12,9 +13,15 @@
 export default {
     head(){
         return {
-            title: this.home.label,
+            title: this.home.title,
             meta: [
-                { name: 'description', content: this.home.meta.description }
+                { name: 'description', content: this.home.meta.description },
+                { name: 'og:title', content: this.home.title },
+                { name: 'og:site_name', content: process.env.SITE_NAME },
+                { name: 'og:description', content: this.home.meta.description },
+                { name: 'og:image', content: process.env.SITE_URL + this.home.meta.image },
+                { name: 'og:image:width', content: '917' },
+                { name: 'og:image:height', content: '480' }
             ]
         }
     },
@@ -31,5 +38,7 @@ export default {
             content: content
         }
     }
+
+    
 }
 </script>

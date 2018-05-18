@@ -1,5 +1,3 @@
-# The basics
-
 A basic mesh consists of 
 * multiple **vertex** points (called **vertices**), which represents the corner points of the desired shape
 * **triangles**, which connects the vertices
