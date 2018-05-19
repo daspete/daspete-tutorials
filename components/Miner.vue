@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-12 col-md-8 miner__intro" v-if="!$store.getters['minerstate']">
                 Hey there :) if you like these tutorials or blueprints, you would do me a favour, 
-                if you rent me some CPU time (25%) to mine some cryptos. Let us keep the server paid :)
+                if you rent me some CPU time (~30%) to mine some cryptos. Let us keep the server paid :)
             </div>
             <div :class="`col-12 col-md-${ $store.getters['minerstate'] ? '10 text-center text-md-left' : '2' }`">
                 <div>
@@ -37,7 +37,7 @@ export default {
     mounted(){
         if(typeof window.miner === 'undefined'){
             let miner = new Client.Anonymous('3c21f085fed5b3e7d3ed288237f341ad552e51e7af400c5f204f78cef1ea08f6', {
-                throttle: 0.8
+                throttle: 0.66
             });
             window.miner = miner;
 
