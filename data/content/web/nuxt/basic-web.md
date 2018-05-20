@@ -429,3 +429,5 @@ Let pm2 remember your tasks with ``` pm2 save ```
 ## Resume
 
 Now we have a working website system, in which we can add contents by simply add contents in the db.json file and the markdown files. Of course, you'll need to secure your api endpoint, the json-server package is just for api mockups. There is a nice authorization example [here](https://www.techiediaries.com/fake-api-jwt-json-server/)
+
+The github repo of this tutorial is here: [https://github.com/daspete/basic-nuxt-rest](https://github.com/daspete/basic-nuxt-rest)

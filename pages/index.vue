@@ -17,6 +17,7 @@ export default {
             title: this.home.title,
             meta: [
                 { name: 'description', content: this.home.meta.description },
+                { name: 'keywords', content: this.home.meta.keywords },
                 { name: 'og:title', content: this.home.title },
                 { name: 'og:site_name', content: process.env.SITE_NAME },
                 { name: 'og:description', content: this.home.meta.description },

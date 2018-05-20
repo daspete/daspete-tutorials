@@ -16,6 +16,7 @@ export default {
             title: this.subcategory.title, 
             meta: [
                 { name: 'description', content: this.subcategory.meta.description },
+                { name: 'keywords', content: this.subcategory.meta.keywords },
                 { name: 'og:title', content: this.subcategory.title },
                 { name: 'og:site_name', content: process.env.SITE_NAME },
                 { name: 'og:description', content: this.subcategory.meta.description },
