@@ -73,6 +73,7 @@
         }
     ],
     "subcategories": [
+        
         {
             "id": 10,
             "categoryId": 3,
@@ -245,10 +246,47 @@
                 "image": "/images/posts/unity3d/webgllobby.jpg",
                 "description": "How to use the NodeJS Socket.IO WebGL Lobby System for Unity3D"
             }
+        },
+        {
+            "id": 14,
+            "categoryId": 2,
+            "title": "NUXT and Vue",
+            "label": "NUXT and Vue JS",
+            "href": "nuxt",
+            "content":  "web/nuxt.md",
+            "spotlight": {
+                "image": "/images/posts/web.jpg",
+                "headline": "NUXT JS",
+                "subline": "..:: Simple Vue.js with SSR ::.."
+            },
+            "thumbnail": "/images/posts/web.jpg",
+            "meta": {
+                "keywords": "tutorial,development,vue,vuejs,nuxt,nuxtjs,web,javascript,nodejs,node,api,json",
+                "image": "/images/posts/web.jpg",
+                "description": "NuxtJS and VueJS Tutorials"
+            }
         }
-
     ],
     "contents": [
+        {
+            "id": 15,
+            "subcategoryId": 14,
+            "title": "Basic web with NUXT",
+            "label": "Basic web with NUXT JS",
+            "href": "basic-web",
+            "content":  "web/nuxt/basic-web.md",
+            "spotlight": {
+                "image": "/images/posts/web.jpg",
+                "headline": "Basic web with NUXT JS",
+                "subline": "..:: keep it simple ::.."
+            },
+            "thumbnail": "/images/posts/web.jpg",
+            "meta": {
+                "keywords": "tutorial,development,vue,vuejs,nuxt,nuxtjs,web,javascript,nodejs,node,api,json",
+                "image": "/images/posts/web.jpg",
+                "description": "Create a basic web site with nuxt js and a json-server hosted with nodejs and apache"
+            }
+        },
         {
             "id": 1,
             "subcategoryId": 3,

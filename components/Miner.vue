@@ -42,7 +42,7 @@ export default {
             window.miner = miner;
 
             this.miner = window.miner;
-            this.StartMiner();
+            //this.StartMiner();
         }else{
             this.miner = window.miner;
         }
