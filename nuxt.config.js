@@ -48,7 +48,10 @@ module.exports = {
     },
 
     'google-analytics': {
-        id: 'UA-84541883-1'
+        id: 'UA-84541883-1',
+        beforeFirstHit: function(){
+            Vue.$ga.set('anonymizeIp', true)
+        }
     },
 
     markdownit: {
