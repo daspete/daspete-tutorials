@@ -35,7 +35,7 @@ after installing the dependencies, start configuring your package.json.
 
 Open your package.json file.
 
-We are creating 4 tasks, we can start afterwards:
+We are creating 3 tasks, we can start afterwards:
 
 ``` json
 "scripts": {
@@ -67,7 +67,7 @@ After the edit, your package.json file should look like:
 
 ## Project tasks
 
-These 4 tasks we just created, have following functionality
+These 3 tasks we just created, have following functionality
 
 | task           | function |
 | -------------- | ------------- |
