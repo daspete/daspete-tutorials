@@ -16,6 +16,7 @@ export default {
             title: this.subcategory.title, 
             meta: [
                 { name: 'description', content: this.subcategory.meta.description },
+                { name: 'keywords', content: this.subcategory.meta.keywords },
                 { name: 'og:title', content: this.subcategory.title },
                 { name: 'og:site_name', content: process.env.SITE_NAME },
                 { name: 'og:description', content: this.subcategory.meta.description },
@@ -28,6 +29,7 @@ export default {
     async asyncData({app, store, params }){
         let categories = await app.$axios.$get('categories');
         let subcategory = await app.$axios.$get(`subcategories?href=${ params.subcategory }&_embed=contents`);
+        console.log(subcategory);
         subcategory = subcategory[0];
 
         let content = require(`~/data/content/${ subcategory.content }`);

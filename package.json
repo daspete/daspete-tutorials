@@ -7,7 +7,7 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "api": "json-server --watch api/db.json --port=3011"
+    "api": "json-server --watch api/db.json --read-only"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.3.1",
