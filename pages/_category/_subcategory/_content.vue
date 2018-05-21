@@ -4,7 +4,7 @@
         <spotlight :page="contentSettings"></spotlight>
         <miner></miner>
         <contentblock v-if="content.trim() != '<section></section>'" :content="content"></contentblock>
-        <!-- <category :childs="subcategory.contents"></category> -->
+        <comments></comments>
         <pagefooter></pagefooter>
     </div>
 </template>

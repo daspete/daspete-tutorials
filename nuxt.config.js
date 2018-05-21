@@ -26,6 +26,7 @@ module.exports = {
 
     plugins: [
         '~/plugins/vue-awesome',
+        '~/plugins/disqus',
         '~/plugins/components'
     ],
 
