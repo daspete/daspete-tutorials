@@ -2,6 +2,14 @@
 
 Create a simple site, which has categories and subcategories, with NUXT JS and a REST api, and then deploy it on a remote host.
 
+## Knowledge to have
+
+If you want to get started here, you should learn some things before:
+
+- [Vue.js](https://vuejs.org/) -> With vue.js we can easily build reuseable web components
+- [NUXT](https://nuxtjs.org/) -> nuxt.js builts a server side rendering functionality on top of vue.js
+- [json-server](https://github.com/typicode/json-server) -> creates a simple and powerful json rest api
+
 ## Requirements
 
 You should have following stack:
@@ -50,7 +58,7 @@ We are creating 4 tasks, we can start afterwards:
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "api": "json-server --watch api/db.json --port=3001"
+    "api": "json-server --watch api/db.json --read-only"
 },
 ```
 
@@ -66,7 +74,7 @@ After the edit, your package.json file should look like:
         "dev": "nuxt",
         "build": "nuxt build",
         "start": "nuxt start",
-        "api": "json-server --watch api/db.json --port=3001"
+        "api": "json-server --watch api/db.json --read-only"
     },
     "dependencies": {
         "@nuxtjs/axios": "^5.3.1",

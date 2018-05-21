@@ -265,9 +265,47 @@
                 "image": "/images/posts/web.jpg",
                 "description": "NuxtJS and VueJS Tutorials"
             }
+        },
+        {
+            "id": 15,
+            "categoryId": 2,
+            "title": "Phaser",
+            "label": "Phaser JS",
+            "href": "phaser",
+            "content":  "web/phaser.md",
+            "spotlight": {
+                "image": "/images/posts/web.jpg",
+                "headline": "Phaser JS",
+                "subline": "..:: Making games with phaser.js ::.."
+            },
+            "thumbnail": "/images/posts/web.jpg",
+            "meta": {
+                "keywords": "tutorial,development,vue,vuejs,phaser,webgl,canvas,game,web,javascript,nodejs,node,json",
+                "image": "/images/posts/web.jpg",
+                "description": "Phaser.js Tutorials"
+            }
         }
     ],
     "contents": [
+        {
+            "id": 15,
+            "subcategoryId": 15,
+            "title": "ES6 Phaser.js with NUXT",
+            "label": "Use Phaser.js with ES6 and NUXT",
+            "href": "phaser-nuxt",
+            "content":  "web/phaser/phaser-nuxt.md",
+            "spotlight": {
+                "image": "/images/posts/web.jpg",
+                "headline": "ES6 Phaser.js with NUXT",
+                "subline": "..:: modern web game template ::.."
+            },
+            "thumbnail": "/images/posts/web.jpg",
+            "meta": {
+                "keywords": "tutorial,development,vue,vuejs,nuxt,nuxtjs,phaser,phaser.js,game,webgl,canvas,web,javascript,nodejs,node,api,json",
+                "image": "/images/posts/web.jpg",
+                "description": "Create a basic game template with phaser.js and nuxt.js"
+            }
+        },
         {
             "id": 15,
             "subcategoryId": 14,
