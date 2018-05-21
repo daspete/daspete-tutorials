@@ -5,6 +5,7 @@
         <miner></miner>
         <contentblock v-if="content.trim() != '<section></section>'" :content="content"></contentblock>
         <category :childs="category.subcategories"></category>
+        <comments></comments>
         <pagefooter></pagefooter>
     </div>
 </template>
@@ -25,10 +26,6 @@ export default {
                 { name: 'og:image:height', content: '480' }
             ]
         }
-    },
-
-    mounted(){
-        console.log('hmm');
     },
 
     async asyncData({app, store, params }){

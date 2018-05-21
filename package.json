@@ -24,6 +24,7 @@
     "nuxt": "^1.4.0",
     "sass-loader": "^7.0.1",
     "vue-awesome": "^3.0.0",
+    "vue-disqus": "^3.0.3",
     "webpack-node-externals": "^1.7.2"
   }
 }

@@ -5,8 +5,8 @@
         <miner></miner>
         <contentblock v-if="content.trim() != '<section></section>'" :content="content"></contentblock>
         <category :childs="categories"></category>
+        <comments></comments>
         <pagefooter></pagefooter>
-        
     </div>
 </template>
 
