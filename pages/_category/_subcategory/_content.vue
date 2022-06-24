@@ -2,7 +2,6 @@
     <div class="page">
         <topmenu :pages="categories"></topmenu>
         <spotlight :page="contentSettings"></spotlight>
-        <miner></miner>
         <contentblock v-if="content.trim() != '<section></section>'" :content="content"></contentblock>
         <comments></comments>
         <pagefooter></pagefooter>

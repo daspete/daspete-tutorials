@@ -2,7 +2,6 @@
     <div class="page">
         <topmenu :pages="categories"></topmenu>
         <spotlight :page="category"></spotlight>
-        <miner></miner>
         <contentblock v-if="content.trim() != '<section></section>'" :content="content"></contentblock>
         <category :childs="category.subcategories"></category>
         <comments></comments>
